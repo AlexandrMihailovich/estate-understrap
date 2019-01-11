@@ -1,0 +1,58 @@
+/*
+Theme Name: estate-understrap
+Template: understrap
+
+Theme URI: http://localhost
+Description: Child UnderStrap
+Author: user
+Author URI: http://localhost
+Version: 1.0
+*/
+
+
+div.acf-input-append {
+    height: auto;
+}
+
+@media (max-width: 34em) {
+    .media-body {
+        padding: 0.5em;
+    }
+    .media {
+        display: block;
+        -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+        align-items: baseline;
+    }
+}
+@media (min-width: 34em) {
+    .card-columns {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+}
+
+@media (min-width: 48em) {
+    .card-columns {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+    }
+}
+
+@media (min-width: 62em) {
+    .card-columns {
+        -webkit-column-count: 4;
+        -moz-column-count: 4;
+        column-count: 4;
+    }
+}
+
+@media (min-width: 75em) {
+    .card-columns {
+        -webkit-column-count: 4;
+        -moz-column-count: 4;
+        column-count: 4;
+    }
+}
